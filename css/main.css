@@ -226,3 +226,7 @@ footer {
 footer a {
 	color: #555555;
 }
+
+footer p.right {
+	margin-left: 15px;
+}
