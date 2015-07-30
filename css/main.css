@@ -17,7 +17,7 @@ header {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	height: 525px;
+	height: 600px;
 	text-align: center;
 }
 
@@ -27,15 +27,15 @@ h1, h2 {
 	margin: 0 auto;
 	color: #fff;
 	position: relative;
-	bottom: -130px;
-	width: 500px;
+	bottom: -180px;
+	width: 400px;
 }
 
 h1 {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-size: 40px;
 	font-weight: 700;
-	line-height: 40px;
+	line-height: 50px;
 	text-transform: uppercase;
 	margin-bottom: 20px;
 }
@@ -189,8 +189,12 @@ button{
 	font-family: 'Teko', Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	width: 1536px;
+	width: 1460px;
 	margin: 0 auto;
+}
+
+article.left, article.right {
+	width: 730px;
 }
 
 aside.relatedArticles p {
@@ -212,8 +216,8 @@ aside.relatedArticles a {
 }
 
 article img {
-	width: 768px;
-	height: 247.92px;
+	width: 730px;
+	height: 235.72px;
 }
 
 footer {
@@ -221,6 +225,8 @@ footer {
 	width: 1175px;
 	margin: 0 auto;
 	color: #555555;
+	position: relative;
+	top: -90px;
 }
 
 footer a {
