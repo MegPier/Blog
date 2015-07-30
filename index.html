@@ -2,21 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/reset.css">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Teko:300,400' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Titillium+Web:300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css">	
 	<title> BLOG: Stock Photos</title>
 </head>
 <body>
 
 	<!-- Header image and article title -->
 	<header>
-		<h1>Stock Photos That Don&rsquo;t Suck</h1>
-		<h2>A list of places to find the best free stock photos</h2>
+		<div>
+			<h1>Stock Photos That Don&rsquo;t Suck</h1>
+			<h2>A list of places to find the best free stock photos</h2>
+		</div>
 	</header>
 
 	<main>
 
 	<section class="articleInfo">
 		<!-- Article information (Author, category, date) -->
+		<img class="profile" src="img/profile_pic.png">
 		<h3>Dustin Senos</h3>
 
 		<h4>Art &amp; Design</h4>
@@ -90,22 +98,24 @@
 	<!-- Related articles -->
 	<aside class="relatedArticles">
 
-		<article>
+		<article class="left">
+			<img src="img/left.jpg" class="left" alt="Previous Article Background">
 			<p>Previous</p>
-			<h4><a href="#">How to Get Started Your Own Creative Studio</a></h4>
+			<h4><a href="#">How to Get Started Your Own Creative<br> Studio</a></h4>
 		</article>
 
-		<article>
+		<article class="right">
+			<img src="img/right.jpg" class="right" alt="Next Article Background">
 			<p>Next</p>
-			<h4><a href="#">Enhancing User Experience with the Web Speech API</a></h4>
+			<h4><a href="#">Enhancing User Experience with the Web<br> Speech API</a></h4>
 		</article>
 
 	</aside>
 
 	<footer>
-		<p><i>&copy; 2015 SAGE Multipurpose Theme. Made by idealUI</i></p>
-		<a href="#"><p><small>Terms of Use</small></p></a>
-		<a href="#"><p><small>Privacy Policy</small></p></a>
+		<p class="left"><i>&copy; 2015 SAGE Multipurpose Theme. Made by idealUI</i></p>
+		<a href="#"><p class="right"><small>Terms of Use</small></p></a>
+		<a href="#"><p class="right"><small>Privacy Policy</small></p></a>
 	</footer>
 </body>
 </html>
